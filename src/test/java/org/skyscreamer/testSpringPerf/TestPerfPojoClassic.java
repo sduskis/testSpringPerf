@@ -7,4 +7,8 @@ public class TestPerfPojoClassic extends AbstractTestXmlSpringPerf {
 		return "applicationContext1.xml";
 	}
 
+	public static void main(String[] args) {
+		new TestPerfPojoP().testPojo5times();
+	}
+
 }

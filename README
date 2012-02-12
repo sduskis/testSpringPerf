@@ -1,0 +1,7 @@
+What starts up faster given the following options:
+
+1) traditional <bean> configuration
+2) <bean> configuration with p: notation
+3) xml with classpath scanning
+4) JavaConfig defining beans
+4) JavaConfig with classpath scanning

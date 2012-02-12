@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class NodeBean70 {
+
 	@Autowired
 	NodeBean69 nodeBean69;
 }

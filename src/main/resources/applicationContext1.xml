@@ -3,399 +3,333 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-	<bean name="nodeBean100" class="org.skyscreamer.testSpringPerf.pojo.NodeBean100">
+	<bean name="nodeBean100" class="org.skyscreamer.testSpringPerf.pojo.NodeBean100" >
 		<property name="nodeBean99" ref="nodeBean99" />
 	</bean>
 
-	<bean name="nodeBean99" class="org.skyscreamer.testSpringPerf.pojo.NodeBean99">
-		<property name="nodeBean98" ref="nodeBean98" />
-	</bean>
+	<bean name="nodeBean99" class="org.skyscreamer.testSpringPerf.pojo.NodeBean99" />
 
-	<bean name="nodeBean98" class="org.skyscreamer.testSpringPerf.pojo.NodeBean98">
+	<bean name="nodeBean98" class="org.skyscreamer.testSpringPerf.pojo.NodeBean98" >
 		<property name="nodeBean97" ref="nodeBean97" />
 	</bean>
 
-	<bean name="nodeBean97" class="org.skyscreamer.testSpringPerf.pojo.NodeBean97">
+	<bean name="nodeBean97" class="org.skyscreamer.testSpringPerf.pojo.NodeBean97" >
 		<property name="nodeBean96" ref="nodeBean96" />
 	</bean>
 
-	<bean name="nodeBean96" class="org.skyscreamer.testSpringPerf.pojo.NodeBean96">
-		<property name="nodeBean95" ref="nodeBean95" />
-	</bean>
+	<bean name="nodeBean96" class="org.skyscreamer.testSpringPerf.pojo.NodeBean96" />
 
-	<bean name="nodeBean95" class="org.skyscreamer.testSpringPerf.pojo.NodeBean95">
+	<bean name="nodeBean95" class="org.skyscreamer.testSpringPerf.pojo.NodeBean95" >
 		<property name="nodeBean94" ref="nodeBean94" />
 	</bean>
 
-	<bean name="nodeBean94" class="org.skyscreamer.testSpringPerf.pojo.NodeBean94">
+	<bean name="nodeBean94" class="org.skyscreamer.testSpringPerf.pojo.NodeBean94" >
 		<property name="nodeBean93" ref="nodeBean93" />
 	</bean>
 
-	<bean name="nodeBean93" class="org.skyscreamer.testSpringPerf.pojo.NodeBean93">
-		<property name="nodeBean92" ref="nodeBean92" />
-	</bean>
+	<bean name="nodeBean93" class="org.skyscreamer.testSpringPerf.pojo.NodeBean93" />
 
-	<bean name="nodeBean92" class="org.skyscreamer.testSpringPerf.pojo.NodeBean92">
+	<bean name="nodeBean92" class="org.skyscreamer.testSpringPerf.pojo.NodeBean92" >
 		<property name="nodeBean91" ref="nodeBean91" />
 	</bean>
 
-	<bean name="nodeBean91" class="org.skyscreamer.testSpringPerf.pojo.NodeBean91">
+	<bean name="nodeBean91" class="org.skyscreamer.testSpringPerf.pojo.NodeBean91" >
 		<property name="nodeBean90" ref="nodeBean90" />
 	</bean>
 
-	<bean name="nodeBean90" class="org.skyscreamer.testSpringPerf.pojo.NodeBean90">
-		<property name="nodeBean89" ref="nodeBean89" />
-	</bean>
+	<bean name="nodeBean90" class="org.skyscreamer.testSpringPerf.pojo.NodeBean90" />
 
-	<bean name="nodeBean89" class="org.skyscreamer.testSpringPerf.pojo.NodeBean89">
+	<bean name="nodeBean89" class="org.skyscreamer.testSpringPerf.pojo.NodeBean89" >
 		<property name="nodeBean88" ref="nodeBean88" />
 	</bean>
 
-	<bean name="nodeBean88" class="org.skyscreamer.testSpringPerf.pojo.NodeBean88">
+	<bean name="nodeBean88" class="org.skyscreamer.testSpringPerf.pojo.NodeBean88" >
 		<property name="nodeBean87" ref="nodeBean87" />
 	</bean>
 
-	<bean name="nodeBean87" class="org.skyscreamer.testSpringPerf.pojo.NodeBean87">
-		<property name="nodeBean86" ref="nodeBean86" />
-	</bean>
+	<bean name="nodeBean87" class="org.skyscreamer.testSpringPerf.pojo.NodeBean87" />
 
-	<bean name="nodeBean86" class="org.skyscreamer.testSpringPerf.pojo.NodeBean86">
+	<bean name="nodeBean86" class="org.skyscreamer.testSpringPerf.pojo.NodeBean86" >
 		<property name="nodeBean85" ref="nodeBean85" />
 	</bean>
 
-	<bean name="nodeBean85" class="org.skyscreamer.testSpringPerf.pojo.NodeBean85">
+	<bean name="nodeBean85" class="org.skyscreamer.testSpringPerf.pojo.NodeBean85" >
 		<property name="nodeBean84" ref="nodeBean84" />
 	</bean>
 
-	<bean name="nodeBean84" class="org.skyscreamer.testSpringPerf.pojo.NodeBean84">
-		<property name="nodeBean83" ref="nodeBean83" />
-	</bean>
+	<bean name="nodeBean84" class="org.skyscreamer.testSpringPerf.pojo.NodeBean84" />
 
-	<bean name="nodeBean83" class="org.skyscreamer.testSpringPerf.pojo.NodeBean83">
+	<bean name="nodeBean83" class="org.skyscreamer.testSpringPerf.pojo.NodeBean83" >
 		<property name="nodeBean82" ref="nodeBean82" />
 	</bean>
 
-	<bean name="nodeBean82" class="org.skyscreamer.testSpringPerf.pojo.NodeBean82">
+	<bean name="nodeBean82" class="org.skyscreamer.testSpringPerf.pojo.NodeBean82" >
 		<property name="nodeBean81" ref="nodeBean81" />
 	</bean>
 
-	<bean name="nodeBean81" class="org.skyscreamer.testSpringPerf.pojo.NodeBean81">
-		<property name="nodeBean80" ref="nodeBean80" />
-	</bean>
+	<bean name="nodeBean81" class="org.skyscreamer.testSpringPerf.pojo.NodeBean81" />
 
-	<bean name="nodeBean80" class="org.skyscreamer.testSpringPerf.pojo.NodeBean80">
+	<bean name="nodeBean80" class="org.skyscreamer.testSpringPerf.pojo.NodeBean80" >
 		<property name="nodeBean79" ref="nodeBean79" />
 	</bean>
 
-	<bean name="nodeBean79" class="org.skyscreamer.testSpringPerf.pojo.NodeBean79">
+	<bean name="nodeBean79" class="org.skyscreamer.testSpringPerf.pojo.NodeBean79" >
 		<property name="nodeBean78" ref="nodeBean78" />
 	</bean>
 
-	<bean name="nodeBean78" class="org.skyscreamer.testSpringPerf.pojo.NodeBean78">
-		<property name="nodeBean77" ref="nodeBean77" />
-	</bean>
+	<bean name="nodeBean78" class="org.skyscreamer.testSpringPerf.pojo.NodeBean78" />
 
-	<bean name="nodeBean77" class="org.skyscreamer.testSpringPerf.pojo.NodeBean77">
+	<bean name="nodeBean77" class="org.skyscreamer.testSpringPerf.pojo.NodeBean77" >
 		<property name="nodeBean76" ref="nodeBean76" />
 	</bean>
 
-	<bean name="nodeBean76" class="org.skyscreamer.testSpringPerf.pojo.NodeBean76">
+	<bean name="nodeBean76" class="org.skyscreamer.testSpringPerf.pojo.NodeBean76" >
 		<property name="nodeBean75" ref="nodeBean75" />
 	</bean>
 
-	<bean name="nodeBean75" class="org.skyscreamer.testSpringPerf.pojo.NodeBean75">
-		<property name="nodeBean74" ref="nodeBean74" />
-	</bean>
+	<bean name="nodeBean75" class="org.skyscreamer.testSpringPerf.pojo.NodeBean75" />
 
-	<bean name="nodeBean74" class="org.skyscreamer.testSpringPerf.pojo.NodeBean74">
+	<bean name="nodeBean74" class="org.skyscreamer.testSpringPerf.pojo.NodeBean74" >
 		<property name="nodeBean73" ref="nodeBean73" />
 	</bean>
 
-	<bean name="nodeBean73" class="org.skyscreamer.testSpringPerf.pojo.NodeBean73">
+	<bean name="nodeBean73" class="org.skyscreamer.testSpringPerf.pojo.NodeBean73" >
 		<property name="nodeBean72" ref="nodeBean72" />
 	</bean>
 
-	<bean name="nodeBean72" class="org.skyscreamer.testSpringPerf.pojo.NodeBean72">
-		<property name="nodeBean71" ref="nodeBean71" />
-	</bean>
+	<bean name="nodeBean72" class="org.skyscreamer.testSpringPerf.pojo.NodeBean72" />
 
-	<bean name="nodeBean71" class="org.skyscreamer.testSpringPerf.pojo.NodeBean71">
+	<bean name="nodeBean71" class="org.skyscreamer.testSpringPerf.pojo.NodeBean71" >
 		<property name="nodeBean70" ref="nodeBean70" />
 	</bean>
 
-	<bean name="nodeBean70" class="org.skyscreamer.testSpringPerf.pojo.NodeBean70">
+	<bean name="nodeBean70" class="org.skyscreamer.testSpringPerf.pojo.NodeBean70" >
 		<property name="nodeBean69" ref="nodeBean69" />
 	</bean>
 
-	<bean name="nodeBean69" class="org.skyscreamer.testSpringPerf.pojo.NodeBean69">
-		<property name="nodeBean68" ref="nodeBean68" />
-	</bean>
+	<bean name="nodeBean69" class="org.skyscreamer.testSpringPerf.pojo.NodeBean69" />
 
-	<bean name="nodeBean68" class="org.skyscreamer.testSpringPerf.pojo.NodeBean68">
+	<bean name="nodeBean68" class="org.skyscreamer.testSpringPerf.pojo.NodeBean68" >
 		<property name="nodeBean67" ref="nodeBean67" />
 	</bean>
 
-	<bean name="nodeBean67" class="org.skyscreamer.testSpringPerf.pojo.NodeBean67">
+	<bean name="nodeBean67" class="org.skyscreamer.testSpringPerf.pojo.NodeBean67" >
 		<property name="nodeBean66" ref="nodeBean66" />
 	</bean>
 
-	<bean name="nodeBean66" class="org.skyscreamer.testSpringPerf.pojo.NodeBean66">
-		<property name="nodeBean65" ref="nodeBean65" />
-	</bean>
+	<bean name="nodeBean66" class="org.skyscreamer.testSpringPerf.pojo.NodeBean66" />
 
-	<bean name="nodeBean65" class="org.skyscreamer.testSpringPerf.pojo.NodeBean65">
+	<bean name="nodeBean65" class="org.skyscreamer.testSpringPerf.pojo.NodeBean65" >
 		<property name="nodeBean64" ref="nodeBean64" />
 	</bean>
 
-	<bean name="nodeBean64" class="org.skyscreamer.testSpringPerf.pojo.NodeBean64">
+	<bean name="nodeBean64" class="org.skyscreamer.testSpringPerf.pojo.NodeBean64" >
 		<property name="nodeBean63" ref="nodeBean63" />
 	</bean>
 
-	<bean name="nodeBean63" class="org.skyscreamer.testSpringPerf.pojo.NodeBean63">
-		<property name="nodeBean62" ref="nodeBean62" />
-	</bean>
+	<bean name="nodeBean63" class="org.skyscreamer.testSpringPerf.pojo.NodeBean63" />
 
-	<bean name="nodeBean62" class="org.skyscreamer.testSpringPerf.pojo.NodeBean62">
+	<bean name="nodeBean62" class="org.skyscreamer.testSpringPerf.pojo.NodeBean62" >
 		<property name="nodeBean61" ref="nodeBean61" />
 	</bean>
 
-	<bean name="nodeBean61" class="org.skyscreamer.testSpringPerf.pojo.NodeBean61">
+	<bean name="nodeBean61" class="org.skyscreamer.testSpringPerf.pojo.NodeBean61" >
 		<property name="nodeBean60" ref="nodeBean60" />
 	</bean>
 
-	<bean name="nodeBean60" class="org.skyscreamer.testSpringPerf.pojo.NodeBean60">
-		<property name="nodeBean59" ref="nodeBean59" />
-	</bean>
+	<bean name="nodeBean60" class="org.skyscreamer.testSpringPerf.pojo.NodeBean60" />
 
-	<bean name="nodeBean59" class="org.skyscreamer.testSpringPerf.pojo.NodeBean59">
+	<bean name="nodeBean59" class="org.skyscreamer.testSpringPerf.pojo.NodeBean59" >
 		<property name="nodeBean58" ref="nodeBean58" />
 	</bean>
 
-	<bean name="nodeBean58" class="org.skyscreamer.testSpringPerf.pojo.NodeBean58">
+	<bean name="nodeBean58" class="org.skyscreamer.testSpringPerf.pojo.NodeBean58" >
 		<property name="nodeBean57" ref="nodeBean57" />
 	</bean>
 
-	<bean name="nodeBean57" class="org.skyscreamer.testSpringPerf.pojo.NodeBean57">
-		<property name="nodeBean56" ref="nodeBean56" />
-	</bean>
+	<bean name="nodeBean57" class="org.skyscreamer.testSpringPerf.pojo.NodeBean57" />
 
-	<bean name="nodeBean56" class="org.skyscreamer.testSpringPerf.pojo.NodeBean56">
+	<bean name="nodeBean56" class="org.skyscreamer.testSpringPerf.pojo.NodeBean56" >
 		<property name="nodeBean55" ref="nodeBean55" />
 	</bean>
 
-	<bean name="nodeBean55" class="org.skyscreamer.testSpringPerf.pojo.NodeBean55">
+	<bean name="nodeBean55" class="org.skyscreamer.testSpringPerf.pojo.NodeBean55" >
 		<property name="nodeBean54" ref="nodeBean54" />
 	</bean>
 
-	<bean name="nodeBean54" class="org.skyscreamer.testSpringPerf.pojo.NodeBean54">
-		<property name="nodeBean53" ref="nodeBean53" />
-	</bean>
+	<bean name="nodeBean54" class="org.skyscreamer.testSpringPerf.pojo.NodeBean54" />
 
-	<bean name="nodeBean53" class="org.skyscreamer.testSpringPerf.pojo.NodeBean53">
+	<bean name="nodeBean53" class="org.skyscreamer.testSpringPerf.pojo.NodeBean53" >
 		<property name="nodeBean52" ref="nodeBean52" />
 	</bean>
 
-	<bean name="nodeBean52" class="org.skyscreamer.testSpringPerf.pojo.NodeBean52">
+	<bean name="nodeBean52" class="org.skyscreamer.testSpringPerf.pojo.NodeBean52" >
 		<property name="nodeBean51" ref="nodeBean51" />
 	</bean>
 
-	<bean name="nodeBean51" class="org.skyscreamer.testSpringPerf.pojo.NodeBean51">
-		<property name="nodeBean50" ref="nodeBean50" />
-	</bean>
+	<bean name="nodeBean51" class="org.skyscreamer.testSpringPerf.pojo.NodeBean51" />
 
-	<bean name="nodeBean50" class="org.skyscreamer.testSpringPerf.pojo.NodeBean50">
+	<bean name="nodeBean50" class="org.skyscreamer.testSpringPerf.pojo.NodeBean50" >
 		<property name="nodeBean49" ref="nodeBean49" />
 	</bean>
 
-	<bean name="nodeBean49" class="org.skyscreamer.testSpringPerf.pojo.NodeBean49">
+	<bean name="nodeBean49" class="org.skyscreamer.testSpringPerf.pojo.NodeBean49" >
 		<property name="nodeBean48" ref="nodeBean48" />
 	</bean>
 
-	<bean name="nodeBean48" class="org.skyscreamer.testSpringPerf.pojo.NodeBean48">
-		<property name="nodeBean47" ref="nodeBean47" />
-	</bean>
+	<bean name="nodeBean48" class="org.skyscreamer.testSpringPerf.pojo.NodeBean48" />
 
-	<bean name="nodeBean47" class="org.skyscreamer.testSpringPerf.pojo.NodeBean47">
+	<bean name="nodeBean47" class="org.skyscreamer.testSpringPerf.pojo.NodeBean47" >
 		<property name="nodeBean46" ref="nodeBean46" />
 	</bean>
 
-	<bean name="nodeBean46" class="org.skyscreamer.testSpringPerf.pojo.NodeBean46">
+	<bean name="nodeBean46" class="org.skyscreamer.testSpringPerf.pojo.NodeBean46" >
 		<property name="nodeBean45" ref="nodeBean45" />
 	</bean>
 
-	<bean name="nodeBean45" class="org.skyscreamer.testSpringPerf.pojo.NodeBean45">
-		<property name="nodeBean44" ref="nodeBean44" />
-	</bean>
+	<bean name="nodeBean45" class="org.skyscreamer.testSpringPerf.pojo.NodeBean45" />
 
-	<bean name="nodeBean44" class="org.skyscreamer.testSpringPerf.pojo.NodeBean44">
+	<bean name="nodeBean44" class="org.skyscreamer.testSpringPerf.pojo.NodeBean44" >
 		<property name="nodeBean43" ref="nodeBean43" />
 	</bean>
 
-	<bean name="nodeBean43" class="org.skyscreamer.testSpringPerf.pojo.NodeBean43">
+	<bean name="nodeBean43" class="org.skyscreamer.testSpringPerf.pojo.NodeBean43" >
 		<property name="nodeBean42" ref="nodeBean42" />
 	</bean>
 
-	<bean name="nodeBean42" class="org.skyscreamer.testSpringPerf.pojo.NodeBean42">
-		<property name="nodeBean41" ref="nodeBean41" />
-	</bean>
+	<bean name="nodeBean42" class="org.skyscreamer.testSpringPerf.pojo.NodeBean42" />
 
-	<bean name="nodeBean41" class="org.skyscreamer.testSpringPerf.pojo.NodeBean41">
+	<bean name="nodeBean41" class="org.skyscreamer.testSpringPerf.pojo.NodeBean41" >
 		<property name="nodeBean40" ref="nodeBean40" />
 	</bean>
 
-	<bean name="nodeBean40" class="org.skyscreamer.testSpringPerf.pojo.NodeBean40">
+	<bean name="nodeBean40" class="org.skyscreamer.testSpringPerf.pojo.NodeBean40" >
 		<property name="nodeBean39" ref="nodeBean39" />
 	</bean>
 
-	<bean name="nodeBean39" class="org.skyscreamer.testSpringPerf.pojo.NodeBean39">
-		<property name="nodeBean38" ref="nodeBean38" />
-	</bean>
+	<bean name="nodeBean39" class="org.skyscreamer.testSpringPerf.pojo.NodeBean39" />
 
-	<bean name="nodeBean38" class="org.skyscreamer.testSpringPerf.pojo.NodeBean38">
+	<bean name="nodeBean38" class="org.skyscreamer.testSpringPerf.pojo.NodeBean38" >
 		<property name="nodeBean37" ref="nodeBean37" />
 	</bean>
 
-	<bean name="nodeBean37" class="org.skyscreamer.testSpringPerf.pojo.NodeBean37">
+	<bean name="nodeBean37" class="org.skyscreamer.testSpringPerf.pojo.NodeBean37" >
 		<property name="nodeBean36" ref="nodeBean36" />
 	</bean>
 
-	<bean name="nodeBean36" class="org.skyscreamer.testSpringPerf.pojo.NodeBean36">
-		<property name="nodeBean35" ref="nodeBean35" />
-	</bean>
+	<bean name="nodeBean36" class="org.skyscreamer.testSpringPerf.pojo.NodeBean36" />
 
-	<bean name="nodeBean35" class="org.skyscreamer.testSpringPerf.pojo.NodeBean35">
+	<bean name="nodeBean35" class="org.skyscreamer.testSpringPerf.pojo.NodeBean35" >
 		<property name="nodeBean34" ref="nodeBean34" />
 	</bean>
 
-	<bean name="nodeBean34" class="org.skyscreamer.testSpringPerf.pojo.NodeBean34">
+	<bean name="nodeBean34" class="org.skyscreamer.testSpringPerf.pojo.NodeBean34" >
 		<property name="nodeBean33" ref="nodeBean33" />
 	</bean>
 
-	<bean name="nodeBean33" class="org.skyscreamer.testSpringPerf.pojo.NodeBean33">
-		<property name="nodeBean32" ref="nodeBean32" />
-	</bean>
+	<bean name="nodeBean33" class="org.skyscreamer.testSpringPerf.pojo.NodeBean33" />
 
-	<bean name="nodeBean32" class="org.skyscreamer.testSpringPerf.pojo.NodeBean32">
+	<bean name="nodeBean32" class="org.skyscreamer.testSpringPerf.pojo.NodeBean32" >
 		<property name="nodeBean31" ref="nodeBean31" />
 	</bean>
 
-	<bean name="nodeBean31" class="org.skyscreamer.testSpringPerf.pojo.NodeBean31">
+	<bean name="nodeBean31" class="org.skyscreamer.testSpringPerf.pojo.NodeBean31" >
 		<property name="nodeBean30" ref="nodeBean30" />
 	</bean>
 
-	<bean name="nodeBean30" class="org.skyscreamer.testSpringPerf.pojo.NodeBean30">
-		<property name="nodeBean29" ref="nodeBean29" />
-	</bean>
+	<bean name="nodeBean30" class="org.skyscreamer.testSpringPerf.pojo.NodeBean30" />
 
-	<bean name="nodeBean29" class="org.skyscreamer.testSpringPerf.pojo.NodeBean29">
+	<bean name="nodeBean29" class="org.skyscreamer.testSpringPerf.pojo.NodeBean29" >
 		<property name="nodeBean28" ref="nodeBean28" />
 	</bean>
 
-	<bean name="nodeBean28" class="org.skyscreamer.testSpringPerf.pojo.NodeBean28">
+	<bean name="nodeBean28" class="org.skyscreamer.testSpringPerf.pojo.NodeBean28" >
 		<property name="nodeBean27" ref="nodeBean27" />
 	</bean>
 
-	<bean name="nodeBean27" class="org.skyscreamer.testSpringPerf.pojo.NodeBean27">
-		<property name="nodeBean26" ref="nodeBean26" />
-	</bean>
+	<bean name="nodeBean27" class="org.skyscreamer.testSpringPerf.pojo.NodeBean27" />
 
-	<bean name="nodeBean26" class="org.skyscreamer.testSpringPerf.pojo.NodeBean26">
+	<bean name="nodeBean26" class="org.skyscreamer.testSpringPerf.pojo.NodeBean26" >
 		<property name="nodeBean25" ref="nodeBean25" />
 	</bean>
 
-	<bean name="nodeBean25" class="org.skyscreamer.testSpringPerf.pojo.NodeBean25">
+	<bean name="nodeBean25" class="org.skyscreamer.testSpringPerf.pojo.NodeBean25" >
 		<property name="nodeBean24" ref="nodeBean24" />
 	</bean>
 
-	<bean name="nodeBean24" class="org.skyscreamer.testSpringPerf.pojo.NodeBean24">
-		<property name="nodeBean23" ref="nodeBean23" />
-	</bean>
+	<bean name="nodeBean24" class="org.skyscreamer.testSpringPerf.pojo.NodeBean24" />
 
-	<bean name="nodeBean23" class="org.skyscreamer.testSpringPerf.pojo.NodeBean23">
+	<bean name="nodeBean23" class="org.skyscreamer.testSpringPerf.pojo.NodeBean23" >
 		<property name="nodeBean22" ref="nodeBean22" />
 	</bean>
 
-	<bean name="nodeBean22" class="org.skyscreamer.testSpringPerf.pojo.NodeBean22">
+	<bean name="nodeBean22" class="org.skyscreamer.testSpringPerf.pojo.NodeBean22" >
 		<property name="nodeBean21" ref="nodeBean21" />
 	</bean>
 
-	<bean name="nodeBean21" class="org.skyscreamer.testSpringPerf.pojo.NodeBean21">
-		<property name="nodeBean20" ref="nodeBean20" />
-	</bean>
+	<bean name="nodeBean21" class="org.skyscreamer.testSpringPerf.pojo.NodeBean21" />
 
-	<bean name="nodeBean20" class="org.skyscreamer.testSpringPerf.pojo.NodeBean20">
+	<bean name="nodeBean20" class="org.skyscreamer.testSpringPerf.pojo.NodeBean20" >
 		<property name="nodeBean19" ref="nodeBean19" />
 	</bean>
 
-	<bean name="nodeBean19" class="org.skyscreamer.testSpringPerf.pojo.NodeBean19">
+	<bean name="nodeBean19" class="org.skyscreamer.testSpringPerf.pojo.NodeBean19" >
 		<property name="nodeBean18" ref="nodeBean18" />
 	</bean>
 
-	<bean name="nodeBean18" class="org.skyscreamer.testSpringPerf.pojo.NodeBean18">
-		<property name="nodeBean17" ref="nodeBean17" />
-	</bean>
+	<bean name="nodeBean18" class="org.skyscreamer.testSpringPerf.pojo.NodeBean18" />
 
-	<bean name="nodeBean17" class="org.skyscreamer.testSpringPerf.pojo.NodeBean17">
+	<bean name="nodeBean17" class="org.skyscreamer.testSpringPerf.pojo.NodeBean17" >
 		<property name="nodeBean16" ref="nodeBean16" />
 	</bean>
 
-	<bean name="nodeBean16" class="org.skyscreamer.testSpringPerf.pojo.NodeBean16">
+	<bean name="nodeBean16" class="org.skyscreamer.testSpringPerf.pojo.NodeBean16" >
 		<property name="nodeBean15" ref="nodeBean15" />
 	</bean>
 
-	<bean name="nodeBean15" class="org.skyscreamer.testSpringPerf.pojo.NodeBean15">
-		<property name="nodeBean14" ref="nodeBean14" />
-	</bean>
+	<bean name="nodeBean15" class="org.skyscreamer.testSpringPerf.pojo.NodeBean15" />
 
-	<bean name="nodeBean14" class="org.skyscreamer.testSpringPerf.pojo.NodeBean14">
+	<bean name="nodeBean14" class="org.skyscreamer.testSpringPerf.pojo.NodeBean14" >
 		<property name="nodeBean13" ref="nodeBean13" />
 	</bean>
 
-	<bean name="nodeBean13" class="org.skyscreamer.testSpringPerf.pojo.NodeBean13">
+	<bean name="nodeBean13" class="org.skyscreamer.testSpringPerf.pojo.NodeBean13" >
 		<property name="nodeBean12" ref="nodeBean12" />
 	</bean>
 
-	<bean name="nodeBean12" class="org.skyscreamer.testSpringPerf.pojo.NodeBean12">
-		<property name="nodeBean11" ref="nodeBean11" />
-	</bean>
+	<bean name="nodeBean12" class="org.skyscreamer.testSpringPerf.pojo.NodeBean12" />
 
-	<bean name="nodeBean11" class="org.skyscreamer.testSpringPerf.pojo.NodeBean11">
+	<bean name="nodeBean11" class="org.skyscreamer.testSpringPerf.pojo.NodeBean11" >
 		<property name="nodeBean10" ref="nodeBean10" />
 	</bean>
 
-	<bean name="nodeBean10" class="org.skyscreamer.testSpringPerf.pojo.NodeBean10">
+	<bean name="nodeBean10" class="org.skyscreamer.testSpringPerf.pojo.NodeBean10" >
 		<property name="nodeBean9" ref="nodeBean9" />
 	</bean>
 
-	<bean name="nodeBean9" class="org.skyscreamer.testSpringPerf.pojo.NodeBean9">
-		<property name="nodeBean8" ref="nodeBean8" />
-	</bean>
+	<bean name="nodeBean9" class="org.skyscreamer.testSpringPerf.pojo.NodeBean9" />
 
-	<bean name="nodeBean8" class="org.skyscreamer.testSpringPerf.pojo.NodeBean8">
+	<bean name="nodeBean8" class="org.skyscreamer.testSpringPerf.pojo.NodeBean8" >
 		<property name="nodeBean7" ref="nodeBean7" />
 	</bean>
 
-	<bean name="nodeBean7" class="org.skyscreamer.testSpringPerf.pojo.NodeBean7">
+	<bean name="nodeBean7" class="org.skyscreamer.testSpringPerf.pojo.NodeBean7" >
 		<property name="nodeBean6" ref="nodeBean6" />
 	</bean>
 
-	<bean name="nodeBean6" class="org.skyscreamer.testSpringPerf.pojo.NodeBean6">
-		<property name="nodeBean5" ref="nodeBean5" />
-	</bean>
+	<bean name="nodeBean6" class="org.skyscreamer.testSpringPerf.pojo.NodeBean6" />
 
-	<bean name="nodeBean5" class="org.skyscreamer.testSpringPerf.pojo.NodeBean5">
+	<bean name="nodeBean5" class="org.skyscreamer.testSpringPerf.pojo.NodeBean5" >
 		<property name="nodeBean4" ref="nodeBean4" />
 	</bean>
 
-	<bean name="nodeBean4" class="org.skyscreamer.testSpringPerf.pojo.NodeBean4">
+	<bean name="nodeBean4" class="org.skyscreamer.testSpringPerf.pojo.NodeBean4" >
 		<property name="nodeBean3" ref="nodeBean3" />
 	</bean>
 
-	<bean name="nodeBean3" class="org.skyscreamer.testSpringPerf.pojo.NodeBean3">
-		<property name="nodeBean2" ref="nodeBean2" />
-	</bean>
+	<bean name="nodeBean3" class="org.skyscreamer.testSpringPerf.pojo.NodeBean3" />
 
-	<bean name="nodeBean2" class="org.skyscreamer.testSpringPerf.pojo.NodeBean2">
+	<bean name="nodeBean2" class="org.skyscreamer.testSpringPerf.pojo.NodeBean2" >
 		<property name="nodeBean1" ref="nodeBean1" />
 	</bean>
 
